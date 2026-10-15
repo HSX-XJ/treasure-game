@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🗺️ 寻宝大冒险</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>🗺️ 寻宝大冒险</h1>
+
+    <div class="stage">
+      <div id="hero" class="hero">🧑‍🎓</div>
+      <div class="scenery">🏛️ 🌲 🏛️</div>
+    </div>
+
+    <div class="progress-wrap">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+
+    <button id="start-btn" onclick="findTreasure()">开始寻宝</button>
+
+    <div id="log" class="log"></div>
+  </div>
+
+  <script src="treasure.js"></script>
+</body>
+</html>
